@@ -93,10 +93,10 @@
         const errorBox = document.getElementById('error-box');
         const generateBtnText = generateBtn.querySelector('span');
         const downloadBtn = document.getElementById('download-btn'); 
+        const apiKey = "AIzaSyA62zdTWT-1XDnny-P-eezrku_zhTfIIqg"; 
         
-        // API Configuration
-        const apiKey = ""; // Leave this empty, it will be handled by the environment
-        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${apiKey}`;
+        const apiUrl = `https://generativHlanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${apiKey}`;
+        
 
         // Add click event listener to the generate button
         generateBtn.addEventListener('click', generateImage);
